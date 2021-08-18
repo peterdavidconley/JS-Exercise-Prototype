@@ -18,12 +18,12 @@ In order to complete these tasks you will need your newly aquired knowledge of c
 Using VSCode and Command Line:
 
 
-1. Fork the repo
-2. Clone your forked version of the repo
-3. cd into your repo and create a branch with your first and last name
-4. open the terminal in your vs code and type `npm install`
-5. next type `npm run test` in your terminal
-6. Complete your work making regular commits, once you have all your tests passing and you are ready to submit your work please see canvas for instructions on how to submit
+X 1. Fork the repo
+X 2. Clone your forked version of the repo
+X 3. cd into your repo and create a branch with your first and last name
+X 4. open the terminal in your vs code and type `npm install`
+X 5. next type `npm run test` in your terminal
+X 6. Complete your work making regular commits, once you have all your tests passing and you are ready to submit your work please see canvas for instructions on how to submit
 
 
 ### Task 2 - MVP
