@@ -85,13 +85,20 @@ Car.prototype.fill = function (gallons) {
 }
 
 //Stretch tasks
+
 Car.prototype.drive = function (distance) {
-  if (this.tank > 0) {
-  return this.odometer += distance
-  } else if (this.tank === 0) {
+  const driveableMiles = this.tank * this.milesPerGallon
+  if (distance <= driveableMiles) {
+    this.odometer = this.odometer + distance
+    this.tank = this.tank - (distance/this.milesPerGallon)
+  } else {
     return `I ran out of fuel at ${this.odometer} miles!`
   }
 }
+
+//return this.odometer += distance
+
+// return this.tank -= distance * this.milesPerGallon
 
 /*
   TASK 3
