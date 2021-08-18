@@ -84,6 +84,8 @@ Car.prototype.fill = function (gallons) {
   return this.tank += gallons;
 }
 
+//Stretch tasks
+
 Car.prototype.drive = function (distance) {
   return distance + this.odometer
 }
@@ -109,10 +111,10 @@ Baby.prototype.play = function () {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Using it in a global scope so the "this" keyword is refering to the window
+  2. Using it implicitly like stating it in the return statement of a method of an object
+  3. Using it explicity by using the .call method
+  4. Using it to bind to a new object when using a constructor function
 */
 
 
